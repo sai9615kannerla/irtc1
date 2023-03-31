@@ -1,0 +1,565 @@
+*{
+    margin: 0px;
+    outline:0px;
+}
+.top1{
+    display: flex;
+    width: 100%;
+    height:12vh;
+    background-color:#ffffff;
+}
+.trainlogo{
+    width: 28%;
+    height:11vh;
+    
+}
+.trainlogo img{
+    margin-left:30px;
+    margin-top:20px;
+}
+.midlogs{
+    width: 20%;
+    height:11vh;
+    
+}
+.midlogs img{
+    margin-top: 20px;
+    width:90px;
+    height:60px;
+}
+
+.contentlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    margin-left: 25%;
+    height:11vh;
+    
+}
+#h4l{
+    margin-left:40px;
+}
+.cntentlogo,.fa-solid{
+    margin-left: 60px;
+}
+.contentlogo img{
+    width: 60px;
+    height:60px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+/* ================================================top====== */
+.head{
+    /* position:sticky; */
+    top:18vh;
+    width:100%;
+    height:32vh;
+    background-image: url(turistbackground\ image.webp);
+    background-size: 100% 100%;
+    /* margin-top:10px; */
+    /* animation:marquee1 80s infinite linear;
+    animation-duration: 80s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: marquee1; */
+}
+
+.flight{
+    /* position: relative; */
+}
+#f123{
+    margin-top:14px;
+}
+.train{
+    position:relative;
+    margin-top:54px;
+    background-size: cover;
+    width:100%;
+    height: 35px;
+    animation: train 45s infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+.bus{
+    
+    width: 100%;
+    margin-top: -23px;
+}
+.water{
+    display: flex;
+    
+    width: 100%;
+    height:11vh;
+    background-image:url(water.webp);
+    filter:url(#turbulence);
+    margin-top:-42px;
+}
+#ship12{
+    margin-top:-35px;
+}
+.logs{
+    /* display: flex;
+    flex-direction:row; */
+    width: 100%;
+    height: 32vh;
+    background-color:rgb(46, 10, 208);
+
+}
+.logo{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height:18vh;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.c13,.c14{
+    width:65px;
+    padding:6px;
+    height: 65px;
+    border: 2px solid rgb(181, 162, 162);
+    border-radius: 50%;
+}
+.texts{
+    width: 100%;
+    display: flex;
+}
+.c11,.c22,.c33,.c44,.c55,.c66,.c77,.c88,.c99,.c100,.c111,.c122,.c133,.c144{
+
+}
+.searchbar{
+    width: 60%;
+    height:10vh;
+    background-color:#ffffff;
+    margin-left:18%;
+    margin-top: 10px;
+    border-radius:10px;
+    padding-left: 20px;
+}
+.in1{
+    width:50%;
+    margin-top:20px;
+    height:35px;
+    border: none;
+    border-bottom: 2px solid rgb(157, 144, 144); 
+    font-size: 17px;
+    padding: 10px;
+    color: black;
+    margin-left:30px;
+}
+.opt1{
+    width:20%;
+    height:35px;
+    margin-left:30px;
+    border:none;
+    border-bottom:2px solid rgb(149, 139, 139);
+    font-size: 17px;
+}
+.searchbar button{
+    margin-left:35px;
+    width:14%;
+    height:38px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(223, 202, 15);
+    border-radius: 2px;
+}
+.searchbar button:hover{
+   box-shadow: 6px 2px 10px 2px black;
+}
+.hieghhed{
+    width:100%;
+    height: 10vh;
+    display: flex;
+    background-color: #9d9494;  
+}
+.hieghhed img{
+    width:150px;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 300px;
+}
+.hieghhed h1{
+   margin-top:30px;
+   margin-left:20px;
+   font-style:italic;
+   font-size: 35px;
+}
+.hieghhed h1:hover{
+    box-shadow:0px 0px 10px 2px ;
+}
+.high{
+    width: 100%;
+    height:40vh;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.high img{
+    width:26%;
+    height:34vh;
+    padding: 12px;
+}
+.high img:hover{
+    box-shadow: 0px 0px 20px 0px rgb(5, 6, 5);
+}
+/* ==========================================mainbox4======================== */
+.mainbox4{
+    width: 100%;
+    height: 30vh;
+    background-color:rgb(69, 59, 59);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.mainbox4 img{
+        width: 188px;
+        height:210px;
+        margin-top:6px;
+       
+}
+.icon{
+    position: absolute;
+    margin-top:280px;
+    display: flex;
+    justify-content: space-between;
+}
+/* =================================mainbox5========================== */
+.mainbox5{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox5 img{
+    width:26%;
+    height:34vh;
+    padding: 12px;
+}
+.mainbox5 img:hover{
+    box-shadow: 0px 0px 20px 0px rgb(5, 6, 5);
+}
+/* ========================mainbox6===================== */
+.mainbox6{
+    display: flex;
+    width: 100%;
+    height:70vh;
+    /* background-color: rgb(200, 17, 145); */
+    background-color:#ece3e3;
+}
+.m6box1{
+    width: 50%;
+    height:70vh;
+}
+.m6box2{
+    width: 50%;
+    height:70vh;
+    
+}
+.m6box1 img{
+    width:80%;
+    height:60vh;
+    margin-left:100px;
+    margin-top: 5%;
+    background: transparent;
+    box-shadow:0px 0px 20px 5px rgb(97, 93, 93);
+}
+.m6box1 img:hover{
+    border:2px solid white;
+}
+.m6loginp{
+    width: 50%;
+    height:65vh;
+    background-color:#ffffff;
+    text-align: center;
+    margin-left:30%;
+    margin-top:3%;
+    /* box-shadow:0px 0px 35px 6px black; */
+}
+.m6loginp:hover{
+    /* box-shadow:0px 0px 10px 10px white; */
+    box-shadow:0px 0px 27px 2px black;
+}
+.m6loginp h2{
+    padding-top:35px;
+}
+.m6loginp p{
+    font-size:14px;
+    padding-top: 5px;
+}
+.m6loginp input{
+    width:90%;
+    height: 35px;
+    margin-top: 20px;
+    background: none;
+    border:2px solid rgb(202, 188, 188);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.m6loginp textarea{
+    width:90%;
+    margin-top:20px;
+    height: 50px;
+    font-size:17px;
+}
+.m6loginp button{
+    width: 150px;
+    height:37px;
+    margin-top: 15px;
+    background-color: rgb(209, 170, 16);
+    border: none;
+    font-size:18px;
+}
+.m6loginp button:hover{
+    box-shadow:0px 5px 10px 5px black;
+}
+/* ============================================================================= */
+.mid3boxs{
+    margin-top: 20px;
+    width: 100%;
+    height:57vh;
+    background-color:rgb(2, 2, 189);
+    display: flex;
+    justify-content: center;
+}
+.m3box1{
+    width: 15%;
+    height: 50vh;
+    margin-top:30px;
+}
+/* .m3box2{
+    width: 15%;
+    height: 50vh;
+    background-color: #4610d1;
+    margin-top:30px;
+}
+.m3box3{
+    width: 15%;
+    height: 50vh;
+    background-color: #b01abe;
+    margin-top:30px;
+}
+.m3box4{
+    width: 15%;
+    height: 50vh;
+    background-color: #18bfb9;
+    margin-top:30px;
+}
+.m3box5{
+    width: 15%;
+    height: 50vh;
+    background-color: #a8c924;
+    margin-top:30px;
+}
+.m3box6{
+    width: 15%;
+    height: 50vh;
+    background-color: #187e98;
+    margin-top:30px;
+} */
+.m3box1 h3{
+    width: 100%;
+    height:40px;
+    margin-left: 7px;
+    color: #ffffff;
+    border-bottom:2px solid white;
+}
+.m3box1 a{
+    font-size:20px;
+    color: #d2c0c0;
+    text-decoration: none;
+
+}
+
+/* ==============================m4lastbox============================ */
+.m4lastbox{
+    width: 100%;
+    height: 13vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.m4box1{
+    width:20%;
+    height:12vh;
+    
+    
+}
+.m4box2{
+    width:35%;
+    height:12vh;
+    background-color:#ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    
+}
+.m4box3{
+    width:30%;
+    height:12vh;
+    display: flex;
+}
+.m4box1 a{
+    margin-left:5px;
+    margin-right: 5px;
+    color:rgb(8, 35, 146);
+}
+#m4p{
+    margin-top:5px;
+}
+.m4box1 p{
+    margin-top: 14px;
+}
+/* #m4p{
+    margin-top: px;
+} */
+#l4{
+    width:50px;
+}
+.fb{
+    width: 40px;
+    height: 40px;
+    padding-left:3px;
+    border-radius:50%;
+    margin-top: 8px;
+}
+.fb img{
+    width: 40px;
+    height: 40px;
+}
+.yu{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    margin-top: 8px;
+    padding-left:5px;
+}
+.yu img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.in{
+    width: 40px;
+    height:40px;
+    border-radius:50%;
+    margin-top: 10px;
+    padding-left:5px;
+}
+.in img{
+    width: 38px;
+    height: 38px;
+}
+.lk{
+    width: 40px;
+    height:40px;
+    padding-left:5px;
+    border-radius:50%;
+    margin-top: 10px;
+}
+.lk img{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+}
+.tli{
+    width: 40px;
+    height:40px;
+    padding-left:5px;
+    border-radius:50%;
+    margin-top: 10px;
+}
+.tli img{
+    width: 40px;
+    height: 40px;
+}
+.po{
+    width: 40px;
+    height:40px;
+    padding-left:5px;
+    border-radius:50%;
+    margin-top: 10px;
+}
+.po img{
+    width: 40px;
+    height: 40px;
+}
+.t{
+    width: 40px;
+    height:40px;
+    padding-left:5px;
+    border-radius:50%;
+    margin-top: 10px;
+}
+.t img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.tw{
+    width: 40px;
+    height: 40px;
+    padding-left:5px;
+    border-radius:50%;
+    margin-top: 10px;
+}
+.tw img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.koo{
+    width: 40px;
+    height: 40px;
+    
+    border-radius:50%;
+    margin-top: 10px;
+}
+.koo img{
+    width: 40px;
+    height: 40px;
+}
+.logs1{
+    display: flex;
+    width: 100%;
+    height:7vh;
+    justify-content: center;
+}
+.ptag{
+    width: 100%;
+    height:4vh; 
+}
+.m4box3 img{
+    width: 40px;
+    height:40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.m4box3 p{
+    margin-top:25px;
+    margin-right: 10px;
+}
+/* ==============================boxblock===================== */
+.boxblock{
+    width: 100%;
+    height: 60vh;
+    background-color:rgb(158, 137, 137);
+    display: flex;
+    justify-content: center;
+}
+.title{
+    width:80%;
+    height: 7vh;
+    text-align: center;
+    border-bottom: 1px dashed;
+}
+
+

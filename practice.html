@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+        button{
+            /* background-color:aqua; */
+            background: none;
+            border: none;
+            border-bottom:3px solid blue;
+            width:300px;
+            font-size: 18px;
+        }
+        .help{
+            position: relative;
+        }
+        .shelp{
+            display: block;
+            position: absolute;
+            background-color: black;
+            width:400px;
+            line-height:35px;
+            color: white;
+            opacity: 0;
+            transition:opacity 1s;
+            animation: demo 7s infinite;
+        }
+        .help:hover .shelp{
+            opacity:1;
+            transform: rotatey(0deg);
+            transform: rotatey(1000deg);
+            transform: rotatey(200deg);
+            transform: rotatey(360deg);
+        }
+        /* @keyframes demo{
+            20%{
+                background-color: blue;
+            }
+            70%{
+                background-color: brown;
+            }
+        } */
+   </style>
+</head>
+<body>
+    <button class="help"> how can i healp you
+                <div class="shelp">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quam vero inventore, apiente quo, mollitia dolore cupiditate recusandae accusantium sit eius officiis corrupti a, molestiae quae amet aliquid illo dictasapiente quo, mollitia dolore cupi illo dicta.</p>
+                </div>
+         </button>
+</body>
+</html>
